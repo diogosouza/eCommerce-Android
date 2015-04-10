@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/app_background"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large"
+        tools:context=".LoginActivity" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borda_1"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_large"
+            tools:context=".LoginActivity" >
+
+            <TextView
+                android:id="@+id/txt_nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:text="Nome" />
+
+            <EditText
+                android:id="@+id/edt_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/txt_endereco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:text="Endereço" />
+
+            <EditText
+                android:id="@+id/edt_endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small" />
+
+            <TextView
+                android:id="@+id/txt_cpf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:text="CPF" />
+
+            <EditText
+                android:id="@+id/edt_cpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txt_profissao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:text="Profissão" />
+
+            <Spinner
+                android:id="@+id/spn_profissao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small" />
+
+            <TextView
+                android:id="@+id/txt_sexo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:text="Sexo" />
+
+            <RadioGroup
+                android:id="@+id/rgp_sexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rbt_masculino"
+                    android:checked="true"
+                    android:text="Masculino" />
+
+                <RadioButton
+                    android:id="@+id/rbt_feminino"
+                    android:text="Feminino" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_cadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cadastrar"
+                android:text="Cadastrar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

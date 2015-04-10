@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="padding_small">6dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+	<!-- Configuraçoes para lista de produtos -->
+    <dimen name="titulo">17dp</dimen>
+    <dimen name="qtde">15dip</dimen>
+    <dimen name="categoria">13dip</dimen>
+    <dimen name="valor">12dip</dimen>
+
+</resources>

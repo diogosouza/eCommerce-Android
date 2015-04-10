@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="270"
+        android:endColor="@color/linha_cor_fim_hover"
+        android:startColor="@color/linha_cor_inicio_hover" />
+
+</shape>

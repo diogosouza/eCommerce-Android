@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaProdutosActivity" >
+
+    <ListView
+        android:id="@+id/listaProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divisor"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/linha_lista_seletor" />
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#428bca"
+        android:text="@string/checkout" />
+
+</RelativeLayout>

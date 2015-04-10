@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/config"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Config"/>
+    <item
+        android:id="@+id/pesquisaProdutos"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:title="Pesquisa"/>
+
+</menu>

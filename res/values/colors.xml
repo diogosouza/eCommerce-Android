@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="categoria">#666666</color>
+    <color name="valor">#888888</color>
+    <color name="list_divisor">#d9d9d9</color>
+    <color name="linha_cor_inicio">#ffffff</color>
+    <color name="linha_cor_fim">#ffffff</color>
+    <color name="linha_cor_inicio_hover">#ebeef0</color>
+    <color name="linha_cor_fim_hover">#ebeef0</color>
+
+</resources>

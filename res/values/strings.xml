@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eCommerce Virtual</string>
+
+    <!-- Globais -->
+    <string name="lbl_listar">Listar</string>
+    <string name="lbl_pesquisar">Pesquisar</string>
+    <string name="lbl_img">Tumbnail</string>
+
+    <!-- Strings Login -->
+    <string name="lbl_login">Login:</string>
+    <string name="lbl_senha">Senha:</string>
+    <string name="lbl_logar">Logar</string>
+    <string name="lbl_sair">Sair</string>
+    <string name="lbl_sobre">Sobre</string>
+
+    <!-- Mensagens -->
+    <string name="msg_login_obg">Login Obrigatório!</string>
+    <string name="msg_senha_obg">Senha Obrigatória!</string>
+    <string name="msg_sobre">Copyright 2013 | Devmedia\n Todos os direitos reservados!</string>
+    <string name="msg_logout">Deseja realmente deslogar?</string>
+    <string name="msg_login_invalido">Usuário/Senha inválidos!</string>
+    <string name="msg_login_sucesso">Login Efetuado com sucesso!</string>
+    <string name="title_activity_dash_board_list">DashBoardListActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="paypal_client">Cliente PayPal</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_carrinho">Add ao Carrinho</string>
+    
+    <string-array name="array_opcoes_menu">
+        <item>Listar</item>
+        <item>Pesquisar</item>
+        <item>Perfil</item>
+        <item>Sair</item>
+        <item>Sair</item>
+        <item>Sair</item>
+        <item>Sair</item>
+    </string-array>
+
+</resources>

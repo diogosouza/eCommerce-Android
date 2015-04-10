@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/linha_lista_seletor"
+    android:padding="8dp" >
+
+    <!-- Componente de imagem do produto -->
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgProduto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" >
+    </com.android.volley.toolbox.NetworkImageView>
+
+    <!-- Título do Produto -->
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgProduto"
+        android:layout_toRightOf="@id/imgProduto"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold" />
+
+    <!-- Qtde de produtos vendidos -->
+
+    <TextView
+        android:id="@+id/txtQtde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@id/imgProduto"
+        android:textSize="@dimen/qtde" />
+
+    <!-- Categorias do produto -->
+
+    <TextView
+        android:id="@+id/txtCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtQtde"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imgProduto"
+        android:textColor="@color/categoria"
+        android:textSize="@dimen/categoria" />
+
+    <!-- Valor do produto -->
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/valor"
+        android:textSize="@dimen/valor" />
+
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtCategoria"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/imgProduto"
+        android:background="#64d048"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/add_carrinho"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
