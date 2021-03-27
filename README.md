@@ -1,4 +1,7 @@
 # eCommerce-Android
+
+> **_NOTE:_**  The code of this repository is outdated. Be careful when forking it!
+
 Android Project integrating a REST API + MySQL + PayPal API.
 
 This project is intended to help people that want to integrate your Android apps with the official PayPal API for payments and common transactions.
